@@ -1,0 +1,117 @@
+.toggle-btn {
+  position:absolute;
+ margin-top:-10px;
+ margin-left:10px;
+  top:10px;
+  size: 10px;
+}
+  .toggle-btn span {
+  display:block;
+  width:30px;
+   margin-top:-10px;
+   margin-left:-10px;
+  height:5px;
+  background:#151719;
+  margin:5px 0px;
+  cursor:pointer;
+}
+.resume{
+	height:50px;
+	margin-top:-8px;
+	margin-left:-10px;
+	margin-right:-15px;
+	padding-left:40px;
+	background-color: gray; 
+}
+#contact1:hover h3{
+background-color:blue; 
+}
+.main{
+ float:right;
+margin-right:40px;
+margin-top: -35px;	
+}
+.main a{
+	padding:8px;
+	text-decoration:none;
+	color:white;
+}
+.main a:hover{
+	color:pink;
+	border-bottom:2px solid blue;
+	font-size:18px;
+}
+.all{
+	background-color:    #00001a;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	;
+	background-repeat: no-repeat;
+
+}
+.group1{
+/*background-image:url("Job2.jpg");*/
+margin-left: -30px;
+}
+
+#aboutme{
+	background-attachment: cover;
+ /*background-image:url("job3.jpg") ;*/
+	color:white;
+	border-radius:15px;
+	text-align:center; 
+}
+#aboutme h3{
+  padding-left:20px;
+}
+#aboutme:hover{
+	font-size:17px;
+	border:3px solid blue;
+	
+}
+#row{
+	background-attachment: fill;
+	color:white;
+
+	text-align: center;
+	border-radius:30px;
+}
+#row:hover{
+border:3px solid blue;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#contact{
+
+/*background-image: url("job.jpg");*/
+border-radius:20px;
+text-align:center;
+padding-left: 20px;
+color:white;
+}
+.git {
+  text-align:center;
+  background-color: blue;
+  border-radius: 50px;
+   text-decoration: none;
+}
+
+.git a{
+  text-align:center;
+  background-color: blue;
+  border-radius: 50px;
+   color:white;
+text-decoration: none;
+}
